@@ -1,6 +1,8 @@
 osmtogeojson
 ============
 
+Forked from : https://github.com/Latitude-Cartagene/osmtogeojson
+
 Converts [OSM](https://www.openstreetmap.org/) [data](https://wiki.openstreetmap.org/wiki/OSM_XML) to [GeoJSON](https://geojson.org/). Try the [demo](https://tyrasd.github.io/osmtogeojson/)!
 
 * stable
@@ -12,8 +14,6 @@ Converts [OSM](https://www.openstreetmap.org/) [data](https://wiki.openstreetmap
 
 This code is used in and maintained by the [overpass turbo](https://github.com/tyrasd/overpass-turbo) project.
 
-[![Build Status](https://secure.travis-ci.org/tyrasd/osmtogeojson.png)](https://travis-ci.org/github/tyrasd/osmtogeojson)
-
 Usage
 -----
 
@@ -21,7 +21,7 @@ Usage
   
 Installation:
 
-      $ npm install -g osmtogeojson
+    $ npm install -g @latitude-cartagene/osmtogeojson
 
 Usage:
 
@@ -39,11 +39,11 @@ When working with extra large data files (≳ 100 MB) it is recommended to run t
 
 Installation:
 
-    $ npm install osmtogeojson
+    $ npm install @latitude-cartagene/osmtogeojson
 
 Usage:
 
-    var osmtogeojson = require('osmtogeojson');
+    var osmtogeojson = require('@latitude-cartagene/osmtogeojson');
     osmtogeojson(osm_data);
 
 ### browser library
