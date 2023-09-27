@@ -1,7 +1,7 @@
 osmtogeojson
 ============
 
-Forked from : https://github.com/Latitude-Cartagene/osmtogeojson
+Forked from : https://github.com/tyrasd/osmtogeojson
 
 Converts [OSM](https://www.openstreetmap.org/) [data](https://wiki.openstreetmap.org/wiki/OSM_XML) to [GeoJSON](https://geojson.org/). Try the [demo](https://tyrasd.github.io/osmtogeojson/)!
 
