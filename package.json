@@ -1,7 +1,10 @@
 {
-  "name": "osmtogeojson",
-  "version": "3.0.0-beta.5",
+  "name": "@latitude-cartagene/osmtogeojson",
+  "version": "3.0.0",
   "description": "convert OSM to geojson",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Latitude-Cartagene"
+  },
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
@@ -15,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/tyrasd/osmtogeojson.git"
+    "url": "https://github.com/Latitude-Cartagene/osmtogeojson"
   },
   "keywords": [
     "openstreetmap",
@@ -24,11 +27,11 @@
   "author": "Martin Raifer",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tyrasd/osmtogeojson/issues"
+    "url": "https://github.com/Latitude-Cartagene/osmtogeojson/issues"
   },
   "dependencies": {
     "@mapbox/geojson-rewind": "0.5.2",
-    "@xmldom/xmldom": "0.8.3",
+    "@xmldom/xmldom": "^0.8.10",
     "concat-stream": "2.0.0",
     "geojson-numeric": "0.2.1",
     "htmlparser2": "3.5.1",
